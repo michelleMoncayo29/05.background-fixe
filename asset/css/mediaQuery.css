@@ -1,0 +1,24 @@
+@media screen and (min-width:576px) {}
+
+@media screen and (min-width:768px) {}
+
+@media screen and (min-width:992px) {
+
+    /* *componente especial */
+    .menu {
+        transform: translateX(-100%);
+        transition: .5s all;
+        background: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 35%;
+        height: 100%;
+    }
+
+    .menu.menu-active {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (min-width:1200px) {}

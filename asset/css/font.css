@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-ExtraLight.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Light.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-ExtraBold.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Bold.ttf);
+    font-weight: bolder;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Black.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Kum';
+    src: url(../fonts/Kumbh_Sans/static/KumbhSans-Thin.ttf);
+    font-weight: lighter;
+}
