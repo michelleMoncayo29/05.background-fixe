@@ -31,13 +31,27 @@ body {
     background-color: #006699 !important;
 }
 
-.bg-banner {
-    background-image: url(../img/img-01.jpg) !important;
+.bg-fixed-1 {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
 }
 
 /* *text-color */
 .text-blue {
     color: #006699 !important;
+}
+
+/* *btn */
+.btn-blue {
+    background-color: #006699;
+    border-color: #006699;
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+    padding: 12px 50px;
 }
 
 /* *clases-especiales */
@@ -70,18 +84,18 @@ body {
 
 
 .menu {
-    /* width: 35%; */
     height: 100%;
-    position: fixed;
     padding-left: 40px;
     padding-top: 40px;
+    position: relative;
+    /* transform: translateX(-100%); */
+    display: none;
 }
 
 .content {
-    /* width: 65%; */
     height: 100%;
-    border: 3px solid red;
-    /* overflow-y: scroll; */
+    /* border: 3px solid red; */
+    overflow-y: scroll;
 }
 
 /* *height */
@@ -89,9 +103,26 @@ body {
     min-height: 60vh;
 }
 
+.h-55vh {
+    height: 55vh;
+}
+
+.h-100vh {
+    height: 100vh;
+}
+
+.lh-30 {
+    line-height: 30px;
+}
+
 /* *border */
 .bb-grey-light {
     border-bottom: 4px solid #ccc;
+}
+
+.bt-blue {
+    border-top: 1px solid #006699;
+    width: 238px;
 }
 
 /* *width */
