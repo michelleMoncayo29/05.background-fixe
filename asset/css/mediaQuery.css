@@ -1,10 +1,64 @@
-@media screen and (min-width:576px) {}
+@media screen and (min-width:576px) {
+
+    /* clases especiales */
+    /* ! */
+    .band-blue {
+        transform: translateY(275px);
+    }
+
+    .title-galery {
+        transform: translateY(185px);
+    }
+
+    .grilla .text-galery:hover .opacity-0 {
+        opacity: 1;
+        transform: translateY(247px);
+    }
+
+    .grilla .text-galery:hover .band-blue {
+        opacity: 1;
+        transform: translateY(260px);
+    }
+}
 
 @media screen and (min-width:768px) {
 
     /* height */
-    .h-md-150vh {
-        height: 150vh;
+
+    .h-md-362vh {
+        height: 362vh;
+    }
+
+    .h-md-348vh {
+        height: 348vh;
+    }
+
+    .h-md-274vh {
+        height: 274vh;
+    }
+
+    /* clases especiales */
+    /* ! */
+    .title-galery {
+        transform: translateY(165px);
+    }
+
+    .band-blue {
+        transform: translateY(238px);
+    }
+
+    .grilla .text-galery:hover .opacity-0 {
+        opacity: 1;
+        transform: translateY(216px);
+    }
+
+    .grilla .text-galery:hover .band-blue {
+        opacity: 1;
+        transform: translateY(220px);
+    }
+
+    .parallax {
+        background-position: bottom;
     }
 }
 
@@ -17,7 +71,7 @@
         background: #fff;
         top: 0;
         left: 0;
-        width: 35%;
+        /* width: 35%; */
         height: 100%;
         display: block;
     }
@@ -25,6 +79,83 @@
     .menu.menu-active {
         transform: translateX(0);
     }
+
+    /* height */
+    .h-lg-324vh {
+        height: 324vh;
+    }
+
+    /* width */
+    .w-lg-280p {
+        width: 280px;
+    }
+
+    /* clases especiales */
+    /* ! */
+    .title-galery {
+        transform: translateY(140px);
+    }
+
+    .band-blue {
+        transform: translateY(230px);
+    }
+
+    .grilla .text-galery:hover .opacity-0 {
+        opacity: 1;
+        transform: translateY(207px);
+    }
+
+    .grilla .text-galery:hover .band-blue {
+        opacity: 1;
+        transform: translateY(210px);
+    }
 }
 
-@media screen and (min-width:1200px) {}
+@media screen and (min-width:1200px) {
+
+    /* width */
+    .w-xl-212 {
+        width: 212px;
+    }
+
+    .w-xl-500p {
+        width: 500px;
+    }
+
+
+    /* height */
+    .h-xl-434 {
+        height: 434px;
+    }
+
+    .h-xl-203vh {
+        height: 203vh;
+    }
+
+    .h-xl-215vh {
+        height: 215vh;
+    }
+
+    .h-xl-270vh {
+        height: 270vh;
+    }
+
+    /* clases especiales */
+    .title-galery {
+        transform: translateY(130px);
+    }
+
+    .band-blue {
+        transform: translateY(195px);
+    }
+
+    .grilla .text-galery:hover .opacity-0 {
+        opacity: 1;
+        transform: translateY(165px);
+    }
+
+    .grilla .text-galery:hover .band-blue {
+        opacity: 1;
+        transform: translateY(182px);
+    }
+}

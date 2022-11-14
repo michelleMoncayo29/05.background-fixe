@@ -15,6 +15,114 @@ body {
     height: 100%;
 }
 
+.grilla {
+    cursor: pointer;
+    overflow: hidden !important;
+}
+
+.grilla .text-galery:hover .opacity-0 {
+    opacity: 1;
+    transform: translateY(135px);
+}
+
+.grilla .text-galery:hover .band-blue {
+    opacity: 1;
+    transform: translateY(135px);
+}
+
+.grilla .text-galery:hover {
+    background-color: #4a375354;
+}
+
+.text-galery {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.title-galery {
+    transform: translateY(99px);
+}
+
+.opacity-0 {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.band-blue {
+    background: #006699;
+    height: 20px;
+    width: 100%;
+    transform: translateY(152px);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.text-ipunt::placeholder {
+    color: #666666;
+    font-weight: 500;
+}
+
+.form-control {
+    color: #666666;
+    font-weight: 500;
+}
+
+.map {
+    overflow: hidden;
+    height: 365px;
+    width: 300px;
+}
+
+.hover-link {
+    color: #666666;
+}
+
+.hover-link:hover {
+    color: #006699;
+}
+
+.hover-link:hover .fa-instagram {
+    color: #8134AF;
+}
+
+.hover-link:hover .fa-facebook {
+    color: #3b5998;
+}
+
+.hover-link:hover .fa-twitter {
+    color: #00acee;
+}
+
+.hover-link:hover .fa-youtube {
+    color: #c4302b;
+}
+
+.social-contact {
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+/* ! */
+.img-1 {
+    background-image: url(../img/img-01.jpg);
+}
+
+.img-2 {
+    background-image: url(../img/img-02.jpg);
+}
+
+.parallax {
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 /* *clases-modificadas-bootstrap */
 .square-icon {
@@ -51,6 +159,22 @@ body {
     color: #fff;
     font-weight: 300;
     font-size: 18px;
+}
+
+.btn-white {
+    border-color: #fff;
+    background-color: #fff;
+    color: #666666;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+/* padding-bottom */
+.p-9-20 {
+    padding: 9px 20px;
+}
+
+.p-12-50 {
     padding: 12px 50px;
 }
 
@@ -82,6 +206,9 @@ body {
     z-index: 10000;
 }
 
+.objert-fit {
+    object-fit: cover;
+}
 
 .menu {
     height: 100%;
@@ -129,6 +256,8 @@ body {
 .w-93 {
     width: 93%;
 }
+
+
 
 /* *font-size */
 .fs-24 {
