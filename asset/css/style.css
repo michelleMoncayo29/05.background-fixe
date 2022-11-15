@@ -116,12 +116,24 @@ body {
     background-image: url(../img/img-02.jpg);
 }
 
+.img-3 {
+    background-image: url(../img/img-03.jpg);
+}
+
+.img-4 {
+    background-image: url(../img/img-04.jpg);
+}
+
 .parallax {
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: inherit;
+}
+
+.footer {
+    padding: 20px 30px;
 }
 
 /* *clases-modificadas-bootstrap */
@@ -230,8 +242,8 @@ body {
     min-height: 60vh;
 }
 
-.h-55vh {
-    height: 55vh;
+.min-vh-55 {
+    min-height: 55vh;
 }
 
 .h-100vh {

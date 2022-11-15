@@ -25,17 +25,18 @@
 
     /* height */
 
-    .h-md-362vh {
-        height: 362vh;
+    .min-md-vh-172 {
+        min-height: 172vh;
     }
 
-    .h-md-348vh {
-        height: 348vh;
+    .min-md-vh-247 {
+        min-height: 247vh;
     }
 
-    .h-md-274vh {
-        height: 274vh;
+    .min-md-vh-334 {
+        min-height: 334vh;
     }
+
 
     /* clases especiales */
     /* ! */
@@ -57,8 +58,12 @@
         transform: translateY(220px);
     }
 
-    .parallax {
+    .bg-md-bottom {
         background-position: bottom;
+    }
+
+    .bg-md-left {
+        background-position: left;
     }
 }
 
@@ -81,8 +86,16 @@
     }
 
     /* height */
-    .h-lg-324vh {
-        height: 324vh;
+    .min-lg-vh-180 {
+        min-height: 180vh
+    }
+
+    .min-lg-vh-250 {
+        min-height: 250vh;
+    }
+
+    .min-lg-vh-313 {
+        min-height: 313vh;
     }
 
     /* width */
@@ -128,12 +141,20 @@
         height: 434px;
     }
 
-    .h-xl-203vh {
-        height: 203vh;
+    .min-xl-vh-100 {
+        min-height: 100vh;
     }
 
-    .h-xl-215vh {
-        height: 215vh;
+    .min-xl-vh-115 {
+        min-height: 125vh !important;
+    }
+
+    .min-xl-vh-260 {
+        min-height: 260vh;
+    }
+
+    .min-xl-vh-210 {
+        min-height: 210vh;
     }
 
     .h-xl-270vh {
