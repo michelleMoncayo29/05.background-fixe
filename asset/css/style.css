@@ -110,6 +110,18 @@ body {
 .card-header {
     border-radius: 0px;
     padding: 0px;
+    background-color: transparent;
+    border: none
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+.card-body {
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 /* ! */
@@ -246,11 +258,11 @@ body {
     overflow-y: scroll;
 }
 
-.carousel-items {
+/* .carousel-items {
     width: 200px;
     height: 380px;
     background-color: #8134AF;
-}
+} */
 
 /* *height */
 .min-vh-60 {
