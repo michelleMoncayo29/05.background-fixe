@@ -107,6 +107,11 @@ body {
     width: 40px;
 }
 
+.card-header {
+    border-radius: 0px;
+    padding: 0px;
+}
+
 /* ! */
 .img-1 {
     background-image: url(../img/img-01.jpg);
@@ -162,6 +167,10 @@ body {
 /* *text-color */
 .text-blue {
     color: #006699 !important;
+}
+
+.text-carrousel {
+    color: #009999;
 }
 
 /* *btn */
@@ -235,6 +244,12 @@ body {
     height: 100%;
     /* border: 3px solid red; */
     overflow-y: scroll;
+}
+
+.carousel-items {
+    width: 200px;
+    height: 380px;
+    background-color: #8134AF;
 }
 
 /* *height */
