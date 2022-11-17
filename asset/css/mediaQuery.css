@@ -78,7 +78,9 @@
         left: 0;
         /* width: 35%; */
         height: 100%;
-        display: block;
+        /* display: block; */
+        position: static;
+        transform: translateX(0);
     }
 
     .menu.menu-active {
@@ -155,6 +157,10 @@
 
     .min-xl-vh-210 {
         min-height: 210vh;
+    }
+
+    .min-xl-vh-170 {
+        min-height: 200vh;
     }
 
     .h-xl-270vh {

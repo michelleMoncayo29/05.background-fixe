@@ -124,6 +124,27 @@ body {
     padding-right: 0px;
 }
 
+/* ______________________________________________ */
+
+.owl-dot {
+    margin-top: 30px !important;
+}
+
+.owl-dot span {
+    zoom: 2 !important;
+    height: 10px !important;
+    width: 10px !important;
+    /* border: 1px solid #869791 !important;
+    background-color: #869791 !important; */
+    border-radius: 2px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #006699 !important;
+    border: 1px solid #006699;
+}
+
 /* ! */
 .img-1 {
     background-image: url(../img/img-01.jpg);
@@ -247,10 +268,18 @@ body {
     height: 100%;
     padding-left: 40px;
     padding-top: 40px;
-    position: relative;
-    /* transform: translateX(-100%); */
-    display: none;
+    position: fixed;
+    background-color: #fff !important;
+    z-index: 999;
+    transform: translateX(-100%);
+    transition: 0.5s;
+    /* display: none; */
 }
+
+.menu.active {
+    transform: translateX(0);
+}
+
 
 .content {
     height: 100%;

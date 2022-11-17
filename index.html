@@ -35,6 +35,8 @@
     <!-- ?OWL-CAROUSEL -->
     <link rel="stylesheet" href="./asset/lib/owl.carrousel/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./asset/lib/owl.carrousel/css/owl.theme.default.min.css">
+
+    <!-- *End -->
 </head>
 
 <body>
@@ -42,7 +44,7 @@
 
         <div class="d-lg-flex h-100vh">
             <!-- *menu -->
-            <div class="menu bg-light">
+            <div class="menu bg-light " id="menu">
                 <div class="bg-blue">
                     <button type="button" class="navbar-toggler btn-menu d-lg-none" id="btn-bars btn"
                         aria-label="Toggle navigation">
@@ -474,11 +476,10 @@
                         </div>
                     </div>
 
-                    <!-- tercera agregar carousel -->
                     <div class="row">
                         <div class=" col-xl-3 col-md-4 col-12 px-0">
                             <div class="">
-                                <div class="img-3 parallax min-vh-55 min-md-vh-247 min-lg-vh-250 min-xl-vh-260"></div>
+                                <div class="img-3 parallax min-vh-55 min-md-vh-247 min-lg-vh-250 min-xl-vh-170"></div>
                             </div>
                         </div>
 
@@ -533,9 +534,9 @@
 
                             <!-- ?carrousel -->
                             <div class="col-12">
-                                <div class="">
+                                <div class="mt-lg-5">
                                     <div class="owl-carousel owl-theme">
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -556,7 +557,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -577,7 +578,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -598,7 +599,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -619,7 +620,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -640,7 +641,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -661,7 +662,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -682,7 +683,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -703,7 +704,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -724,7 +725,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -745,7 +746,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -766,7 +767,7 @@
                                             </div>
                                         </div>
 
-                                        <div class="carousel-items">
+                                        <div class="carousel-items pr-xl-4">
                                             <div class="card card-carrousel">
                                                 <div class="card-header">
                                                     <div class="mb-3">
@@ -821,17 +822,15 @@
                                                     class="form-control rounded-0 text-ipunt">
                                             </div>
 
+
                                             <div class="form-group">
-                                                <div class="form-control rounded-0 dropdown-toggle"
-                                                    data-toggle="dropdown" aria-expanded="false"> Subject
-                                                    <div class="dropdown-menu">
-                                                        <a class="dropdown-item" href="#">Sales & Marketing</a>
-                                                        <a class="dropdown-item" href="#">Creative Design</a>
-                                                        <a class="dropdown-item" href="#">
-                                                            UI / UX
-                                                        </a>
-                                                    </div>
-                                                </div>
+                                                <select name="Subject" placeholder="Subject"
+                                                    class="form-control rounded-0 text-ipunt">
+                                                    <option value="value1">Sales & Marketing</option>
+                                                    <option value="value2" selected>Creative Design</option>
+                                                    <option value="value3">UI / UX</option>
+                                                    <option value="value3">Subject</option>
+                                                </select>
                                             </div>
 
                                             <div class="form-group">
@@ -928,6 +927,16 @@
     <script src="./asset/lib/owl.carrousel/js/owl.carousel.min.js"></script>
 
     <script src="./asset/js/main.js"></script>
+
+    <script>
+        const btn_menu = document.getElementById("btn-bars btn");
+        const menu = document.getElementById("menu");
+
+        $(btn_menu).on("click", e => {
+            menu.classList.toggle("active");
+        })
+    </script>
+
 </body>
 
 </html>
